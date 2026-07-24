@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "¿ME HAS VISTO?",
+    "slug": "me-has-visto",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "edgeToEdgeEnabled": false,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-adaptive-icon.png",
+        "backgroundColor": "#FDE7DA"
+      },
+      "icon": "./assets/app-icon.png",
+      "splash": {
+        "image": "./assets/app-splash-icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FDE7DA"
+      },
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/app-icon.png",
+      "splash": {
+        "image": "./assets/app-splash-icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FDE7DA"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "Necesitamos acceso a la cámara para tomar fotos de mascotas, reportes y avistamientos.",
+        "NSPhotoLibraryUsageDescription": "Necesitamos acceso a la galería para seleccionar fotos de mascotas, reportes y avistamientos.",
+        "NSLocationWhenInUseUsageDescription": "Necesitamos acceso a tu ubicación para marcar el lugar del reporte o avistamiento en el mapa."
+      }
+    },
+    "web": {
+      "favicon": "./assets/app-icon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permite elegir imágenes para los reportes, avistamientos y foto de perfil.",
+          "cameraPermission": "Permite tomar fotos para los reportes, avistamientos y foto de perfil."
+        }
+      ]
+    ],
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/app-splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FDE7DA"
+    }
+  }
+}
