@@ -54,7 +54,8 @@ PROYECTO_HIBRIDAS/
 ## Cómo clonar el repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/VictorZ1111/PROYECTO_HIBRIDAS.git
+
 cd PROYECTO_HIBRIDAS
 ```
 
