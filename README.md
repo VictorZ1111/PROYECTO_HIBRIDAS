@@ -62,7 +62,7 @@ cd PROYECTO_HIBRIDAS
 Ejemplo:
 
 ```bash
-git clone https://github.com/usuario/me-has-visto.git
+git clone https://github.com/VictorZ1111/PROYECTO_HIBRIDAS.git
 cd PROYECTO_HIBRIDAS
 ```
 
